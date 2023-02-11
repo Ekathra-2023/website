@@ -126,7 +126,8 @@
 }
 
 .navbar{
-    background-color: #332265;
+    background-color: #3a86ff;
+    margin-top: 15px;
 }
 
 .c-img{
@@ -552,6 +553,8 @@
     font-size: 30px;
     font-weight: bolder;
     color: black;
+    margin-top: 15px;
+    padding: 30px;
 }
 
 .icon {

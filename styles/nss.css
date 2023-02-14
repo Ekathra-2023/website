@@ -38,7 +38,7 @@
 
 
 .sticky-top{
-    top: 7rem!important;
+    top: auto;
 }
 
 .sticky-top.scrolled{
@@ -127,7 +127,7 @@
 
 .navbar{
     background-color: #3a86ff;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .c-img{

@@ -19,6 +19,124 @@
 	padding: 0;
 }
 
+.dropitems2 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color:rgb(20, 18, 87);
+
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.05);
+    z-index: 2;
+    
+  }
+  .dropitems2:hover{
+      background-color: #29bef0;
+      border-radius: 10px;
+  }
+
+  .dropitems2 a {
+      font-family: 'Poppins', sans-serif;
+    color: rgb(20, 18, 87);
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin-left: 60px; */
+  }
+
+  .dropitems2 a:hover {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 600;
+      background-color: rgb(20, 18, 87);
+  }
+
+  .dit:hover .dropitems2 {
+      display: block;
+  }
+
+  .dropitems3 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color:rgb(20, 18, 87);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.05);
+    z-index: 2;
+    
+  }
+  .dropitems3:hover{
+      background-color: #29bef0;
+      border-radius: 10px;
+  }
+
+  .dropitems3 a {
+      font-family: 'Poppins', sans-serif;
+    color: rgb(20, 18, 87);
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin-left: 60px; */
+  }
+
+  .dropitems3 a:hover {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 600;
+      background-color: rgb(20, 18, 87);
+  }
+
+  .dic:hover .dropitems3 {
+      display: block;
+  }
+
+  .dropitems4 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color:rgb(20, 18, 87);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.05);
+    z-index: 2;
+    
+  }
+  .dropitems4:hover{
+      background-color: #29bef0;
+      border-radius: 10px;
+  }
+
+  .dropitems4 a {
+      font-family: 'Poppins', sans-serif;
+    color: rgb(20, 18, 87);
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /* margin-left: 60px; */
+  }
+
+  .dropitems4 a:hover {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      border-radius: 10px;
+      font-weight: 600;
+      background-color: rgb(20, 18, 87);
+  }
+
+  .dis:hover .dropitems4 {
+      display: block;
+  }
+
 body {
 	font-family: monospace;
 	background: #f4f4f9;

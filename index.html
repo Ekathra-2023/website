@@ -42,7 +42,7 @@
         .dropitems {
           display: none;
           position: absolute;
-          background-color: transparent;
+          background-color: #54ef4c;
           color:rgb(20, 18, 87);
 
           box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.05);
@@ -78,7 +78,7 @@
             display: block;
         }
         .feature_item img{
-            max-height: 10rem;
+            max-height: 12rem;
         }
         .NSS-GVPCE{
             color: white;
@@ -88,10 +88,18 @@
         }
 
         @media only screen and (max-width: 600px) {
-  .owl-carousel {
-    max-width: 85vh !important;
-  }
-}
+            .owl-carousel {
+                max-width: 85vh !important;
+            }
+            /* .carousel-item img{
+                width: 385px !important;
+                height: 600px !important;
+            } */
+/* 
+            .carousel-inner{
+                margin-top: 55px;
+            } */
+        }
 	</style>
 </head>
 
@@ -104,7 +112,7 @@
     <nav class="container-fluid navbar navbar-expand-lg sb-navbar sticky-top ">
         <div class="container-fluid mr-auto">
             <div class="d-flex flex-row justify-content-center">
-            <p style="display: inline;margin-top:10%;font-weight:600;" id="brand-name" class="NSS-GVPCE">Ekathra - Technical and Cultural Symposium</p>
+            <p style="display: inline;margin-top:10px;font-weight:600;" id="brand-name" class="NSS-GVPCE">Ekathra - Technical and Cultural Symposium</p>
             <button class="navbar-toggler" type="button" data-trigger="#navbarNavDropdown">
                 <!-- <i class="fa fa-bars hamburger" aria-hidden = "true"></i> -->
               </button>
@@ -205,35 +213,7 @@
         </div>
     </nav> <!--Navbar-->
 
-    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-            </ol>
-            <div class="carousel-inner">
-                <!-- <div class="carousel-item ">
-                    <img src="NSS PIC 0.jpg" class="d-block c-img w-100" style="height: 100vh;" alt="...">
-                </div> -->
-                <div class="carousel-item active">
-                    <img src="images/EKATHRA 2K23 FINAL POSTER'._page-0001.jpg" class="d-block c-img w-100 " style="height: 130vh;" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/EKATHRA-2023_page-0001.jpg" class="d-block c-img w-100 " style="height:100vh;" alt="...">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    <div class="wcu-section  pb-5" id="AboutUsSection">
+    <div class="wcu-section mt-2 pb-5" id="AboutUsSection">
         <div class="container container-fluid">
             <div class="about-us-heading">
                 <div class="row">
@@ -274,14 +254,82 @@
                                 <a href="" class="btn btn-lg rounded-0" role="button" aria-pressed="true">Know More</a>
 
                             </div>
-
-                         
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+<div class="latest-events" style="margin: 2rem;">
+
+        <h1 class="text-center" style="color: #063258;">Events</h1>
+        <!-- <hr class="underline" style="width:5em;height:2px;"> -->
+    
+        <div class="owl-carousel owl-theme container">
+    
+    
+            <div class="feature_item text-center">
+                <img src="images/chemisphere logo.jpg" style="width: 100%;" alt="">
+                <h3 class="feature_title">CHEMISPHERE</h3>
+                <p class="feature_text"></p>
+                <a href="https://drive.google.com/file/d/1mrw6ceEn46-zC27z6zUp2EqRc5QWqZYC/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+            <div class="feature_item text-center">
+                <img src="images/CivRonix-1_page-0001.jpg" style="width: 100%;" alt="">
+                <h3 class="feature_title">CIVRONIX</h3>
+                
+                <a href="https://drive.google.com/file/d/1iSrLn30xXoibPlvHZpN8N4_mFYZou-R1/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+            <div class="feature_item text-center">
+                <img src="images/CSE Event.png" style="width: 100%;" alt="">
+                <h3 class="feature_title">TECHNOVA</h3>
+                
+                <a href="https://drive.google.com/file/d/1uykITn7L2SSJirhfVVl1HkMD2Xz3or53/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+            <div class="feature_item text-center">
+                <img src="images/ECE Event.png" style="width: 100%;" alt="">
+                <h3 class="feature_title">E-SAYOGA</h3>
+                
+                <a href="https://drive.google.com/file/d/1mrw6ceEn46-zC27z6zUp2EqRc5QWqZYC/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+        
+            <div class="feature_item text-center">
+                <img src="images/E L E K T R A (1).png" style="width: 100%;" alt="">
+                <h3 class="feature_title">ELEKTRA</h3>
+            
+                <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+            <div class="feature_item text-center">
+                <img src="images/Olivia Wilson (1).png" style="width: 100%;" alt="">
+                <h3 class="feature_title">INFOTSAV</h3>
+            
+                <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+            
+            <div class="feature_item text-center">
+                <img src="images/Mechanical event.png" style="width: 100%;" alt="">
+                <h3 class="feature_title">VIVAAN</h3>
+            
+                <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+    
+            <div class="feature_item text-center">
+                <img src="images/MCA EVENT.png" style="width: 100%;" alt="">
+                <h3 class="feature_title">MASTER CRESCENDO</h3>
+            
+                <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
+                        class="btn btn-outline-info">Know More</button></a>
+            </div>
+        </div>
+    
     </div>
 
     <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
@@ -523,76 +571,7 @@
 			</li>
 		</ul>
 	</div>
-<div class="latest-events" style="margin-bottom: 2rem;">
 
-    <h1 class="text-center" style="color: #063258;">Events</h1>
-    <!-- <hr class="underline" style="width:5em;height:2px;"> -->
-
-    <div class="owl-carousel owl-theme container">
-
-
-        <div class="feature_item text-center">
-            <img src="images/chemisphere logo.jpg" style="width: 100%;" alt="">
-            <h3 class="feature_title">CHEMISPHERE</h3>
-            <p class="feature_text"></p>
-            <a href="https://drive.google.com/file/d/1mrw6ceEn46-zC27z6zUp2EqRc5QWqZYC/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-        <div class="feature_item text-center">
-            <img src="images/CivRonix-1_page-0001.jpg" style="width: 100%;" alt="">
-            <h3 class="feature_title">CIVRONIX</h3>
-            
-            <a href="https://drive.google.com/file/d/1iSrLn30xXoibPlvHZpN8N4_mFYZou-R1/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-        <div class="feature_item text-center">
-            <img src="images/CSE Event.png" style="width: 100%;" alt="">
-            <h3 class="feature_title">TECHNOVA</h3>
-            
-            <a href="https://drive.google.com/file/d/1uykITn7L2SSJirhfVVl1HkMD2Xz3or53/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-        <div class="feature_item text-center">
-            <img src="images/ECE Event.png" style="width: 100%;" alt="">
-            <h3 class="feature_title">E-SAYOGA</h3>
-            
-            <a href="https://drive.google.com/file/d/1mrw6ceEn46-zC27z6zUp2EqRc5QWqZYC/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-    
-        <div class="feature_item text-center">
-            <img src="images/E L E K T R A (1).png" style="width: 100%;" alt="">
-            <h3 class="feature_title">ELEKTRA</h3>
-        
-            <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-        <div class="feature_item text-center">
-            <img src="images/Olivia Wilson (1).png" style="width: 100%;" alt="">
-            <h3 class="feature_title">INFOTSAV</h3>
-        
-            <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-        
-        <div class="feature_item text-center">
-            <img src="images/Mechanical event.png" style="width: 100%;" alt="">
-            <h3 class="feature_title">VIVAAN</h3>
-        
-            <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-
-        <div class="feature_item text-center">
-            <img src="images/MCA EVENT.png" style="width: 100%;" alt="">
-            <h3 class="feature_title">MASTER CRESCENDO</h3>
-        
-            <a href="https://drive.google.com/file/d/1qmDLlsyPhOBgnueao0RIZkIV1ynMGHR-/view?usp=sharing" target="_blank"><button type="button"
-                    class="btn btn-outline-info">Know More</button></a>
-        </div>
-    </div>
-
-</div>
 
 
     <div class="footer" style="background-color:#055fad; color:#fff;">

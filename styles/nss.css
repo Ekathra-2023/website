@@ -335,9 +335,9 @@ h1 {
 
 @media  (max-width:120vh){
 .w-100{
-    width:fit-content!important;
+    /* width:fit-content!important; */
 }
-}
+}  /* edit */
 
 .sb-navbar.scrolled{
     color: #332265!important;
@@ -379,7 +379,7 @@ h1 {
 }
 
 .nav-link {
-    margin: 0 10px;
+    margin: 0 8px;
 }
 
 #navItem1 {

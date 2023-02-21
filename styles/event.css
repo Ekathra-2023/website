@@ -23,7 +23,7 @@ h1{
  }
   
  .card {
-     flex: 0 1 24%;
+     flex: 0 1 26%;
  }
 
 .card {
@@ -110,6 +110,7 @@ h1{
 .card .details .center ul li a:hover {
     background: #ff3636;
 }
+
 
 
 

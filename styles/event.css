@@ -111,7 +111,10 @@ h1{
     background: #ff3636;
 }
 
-
+.event-title
+{
+    font-size: 30px;
+}
 
 
 
@@ -133,5 +136,15 @@ h1{
     .mobnone
     {
         display: none !important;
+    }
+
+    .poster{
+        max-width: 45vh;
+        max-height: 60vh;
+    }
+
+    .card {
+        flex: 0 1 80%;
+        font-size: small;
     }
 }

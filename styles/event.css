@@ -1,7 +1,12 @@
 h1{
     color: white;
 }
-
+h2{
+    color:black; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color:black; font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .container .poster{
     height: 40rem;
     width: 35rem;
@@ -27,13 +32,19 @@ h1{
  }
 
  .card h2{
-    color: #ff3636;
+    color:black; font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 50px;
     font-size: 40px;
     text-transform: uppercase;
     margin-top: 40%;
  }
-
+ .card h3{
+    color:black; font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 40%;
+ }
 .card {
     /* position: absolute; */
     /* top: 50%; */
@@ -81,7 +92,7 @@ h1{
 .card .details .center h1 {
     margin: 0;
     padding: 0;
-    color: #ff3636;
+    color:black; font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 20px;
     font-size: 20px;
     text-transform: uppercase;
